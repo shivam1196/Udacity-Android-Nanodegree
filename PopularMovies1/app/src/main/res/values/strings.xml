@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Udacity Assignment Stage 1</string>
+    <string name="api_key">8155a73d1352ee6551cf84eed0cef43d</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="sort_popular">Sort By Popularity</string>
+    <string name="sort_most_viewed">Sort By Most Viewed</string>
+</resources>

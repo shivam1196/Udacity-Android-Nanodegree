@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity"
+    android:id="@+id/rl_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_movie_title"
+        android:layout_alignParentTop="true"
+        android:paddingTop="20dp"
+        android:textSize="30dp"
+        android:paddingLeft="15dp"
+        android:paddingBottom="20dp"
+        android:background="#00AA8D"
+        android:textColor="#ffffff"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_movie_thumbnail"
+        android:layout_below="@id/tv_movie_title"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_release_date"
+        android:layout_toRightOf="@id/iv_movie_thumbnail"
+        android:layout_below="@id/tv_movie_title"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_movie_rating"
+       android:layout_toRightOf="@id/iv_movie_thumbnail"
+        android:layout_below="@id/tv_release_date"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="17dp"
+        android:textSize="16dp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_movie_description"
+        android:layout_below="@id/iv_movie_thumbnail"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"/>
+</RelativeLayout>
