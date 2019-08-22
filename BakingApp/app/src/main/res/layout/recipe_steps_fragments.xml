@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/frame_media_player"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"></com.google.android.exoplayer2.ui.SimpleExoPlayerView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/frame_steps"
+        android:layout_below="@id/frame_media_player"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5sp"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgv_thumbnail_url"
+        android:layout_below="@+id/frame_steps"
+        android:layout_marginTop="5sp"/>
+
+    <Button
+        android:layout_below="@+id/imgv_thumbnail_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_next_step"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:text="@string/reciepe_step_button"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+
+</RelativeLayout></ScrollView>
+</RelativeLayout>

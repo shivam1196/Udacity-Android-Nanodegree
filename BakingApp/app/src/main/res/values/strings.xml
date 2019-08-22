@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BakingApp</string>
+    <string name="reciepe_step_button">NEXT STEP</string>
+    <string name="appwidget_text">Baking App</string>
+    <string name="add_widget">Add widget</string>
+</resources>
